@@ -1,3 +1,10 @@
+package main
+
+import (
+	"fmt"
+	"encoding/json"
+	)
+
 type Name struct {
 	Vorname  string
 	Nachname string
