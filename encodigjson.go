@@ -1,3 +1,9 @@
+package main
+import (
+	"fmt"
+	"encoding/json"
+	)
+
 type Person struct {
 	Name   string
 	Age    int
